@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Noack"
+  given-names: "Matthias"
+- family-names: "Kramer"
+  given-names: "Tobias"
+title: "DM-HEOM"
+version: 092023
+doi: 10.5281/zenodo.8372601
+date-released: 2017-12-18
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Noack"
+    given-names: "Matthias"
+  - family-names: "Reinefeld"
+    given-names: "Alexander"
+  - family-names: "Kramer"
+    given-names: "Tobias"
+  - family-names: "Steinke"
+    given-names: "Thomas"
+  doi: "10.1109/IPDPSW.2018.00149"
+  journal: "2018 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)"
+  start: 947 # First page number
+  end: 956 # Last page number
+  title: "DM-HEOM: A Portable and Scalable Solver-Framework for the Hierarchical Equations of Motion"
+  year: 2018
+  type: article
+  authors:
+  - family-names: "Kramer"
+    given-names: "Tobias"
+  - family-names: "Noack"
+    given-names: "Matthias"
+  - family-names: "Reinefeld"
+    given-names: "Alexander"
+  - family-names: "Rodríguez"
+    given-names: "Mirta"
+ - family-names: "Zelinskyi"
+    given-names: "Yaroslav"
+  doi: "10.1002/jcc.25354"
+  journal: "Journal of Computational Chemistry"
+  start: 1779 # First page number
+  end: 1794 # Last page number
+  volume: 39
+  issue: 22
+  title: "Efficient calculation of open quantum system dynamics and time-resolved spectroscopy with distributed memory HEOM (DM-HEOM)"
+  year: 2018
