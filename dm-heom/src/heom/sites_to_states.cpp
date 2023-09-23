@@ -172,23 +172,12 @@ parser::matrix<int_t> state_baths_coupling_excited_state_absorption(const parser
 
 			// copy all new couplings (we build a set union) of site j
 			for (size_t jb = 0; jb < coupling.cols(); ++jb) {
-				// check if current value is already present in result row k
-				bool found = false;
-				for (size_t rr = 0; rr < r; ++rr) { // iterate over alread written result
-					if (coupling.at(j, jb) != -1) { // ignore -1
-						if (result.at(k, rr) == coupling.at(j, jb)) {
-							found = true;
-							break;
-						}
-
-						if (!found) {
-							result.at(k, r) = coupling.at(j, jb);
-							++r;
-						}
-					}
+				if (coupling.at(j, jb) != -1) { // ignore -1
+					result.at(k, r) = coupling.at(j, jb);
+					++r;
 				}
 			}
-
+			
 			++k; // increment row
 		} // for j
 
